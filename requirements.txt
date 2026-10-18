@@ -1,0 +1,11 @@
+# training / rendering / readers / plots (conda env "qwen-image-edit")
+torch==2.7.0            # cu128 build
+diffusers>=0.39.0.dev0  # needs AutoencoderKLQwenImage and AutoencoderRAE
+transformers==5.8.0
+accelerate==1.13.0
+safetensors>=0.5
+numpy>=2.0
+pillow>=10
+matplotlib>=3.8
+# OCR scorer + glyph fidelity (separate conda env "eval-ocr-b200": transformers pins conflict)
+# transformers==4.57.6 (Qwen3-VL), torch==2.7.0, opencv-python==4.13
