@@ -130,6 +130,6 @@ continuations when a parent run reaches the switch snapshot.
 
 ## 6. Public copies
 
-* Code: https://github.com/SuhaoYu1020/latent-arith-mmdit
+* Code: https://github.com/SuhaoYu1020/Semantic-Image-Release
 * Datasets (one-to-one base + hard one-to-many variants): https://huggingface.co/datasets/SuhaoYu1020/arith-sq256
 * Trained checkpoints (15 final MMDiT snapshots used in the write-up): https://huggingface.co/SuhaoYu1020/latent-arith-mmdit
